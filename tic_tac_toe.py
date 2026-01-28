@@ -3,7 +3,7 @@ winning_combinations = [
     [1,4,7],[2,5,8],[3,6,9],#column_wise
     [1,5,9],[3,5,7]#diagonal_wise 
 ]
-move_list = []
+#move_list = [] //not needed.
 player_1 = []
 player_2 = []
 def check_winner(winner):
