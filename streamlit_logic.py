@@ -10,7 +10,7 @@ import requests
 import random
 
 # DIRECT API KEY (no dotenv)
-API_KEY = "AIzaSyB4LyjxXd5CmnyFawQd2s6xrksewNNcRTg"
+API_KEY = "Invalid KEY"
 
 API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent"
 
