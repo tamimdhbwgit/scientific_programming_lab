@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-with open("model.pkl", "rb") as f:
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+with open(os.path.join(BASE_DIR, "model.pkl"), "rb") as f:
     model = pickle.load(f)
 
 # --- Session state to remember last prediction ---
